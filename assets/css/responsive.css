@@ -1,0 +1,449 @@
+/**
+ * /* Extra large devices (large desktops, 1200px and up)
+ *
+ * @format
+ */
+
+@media (min-width: 1200px) {}
+@media (min-width: 320px) and (max-width: 1200px) {
+    .box_details { 
+        width: 80%;
+        
+    }
+    .winter_price h2 {
+        font-size: 16px;
+        padding: 20px 40px;
+    }
+    #you_can_win { 
+        padding: 50px 0 0 0;
+    }
+    .how_it_details h2 {
+        font-size: 48px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 90px; ;
+    }
+    h2 {
+        font-size: 60px; 
+    }
+    h3 {
+        font-size: 35px; 
+    } 
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .mobilehide {
+        display: none;
+    }
+    
+    .banner_details h2 {
+        font-size: 41px;
+        line-height: 50px;
+        padding: 20px 0;
+        width: 340px;
+        margin: 0 auto;
+    
+    }
+    
+    .banner_details {
+        padding: 0;
+    }
+   
+    
+    .banner_details h2 {
+        font-size: 41px;
+        line-height: 50px;
+        padding: 20px 0;
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    .banner_details {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+        line-height: 1;
+        background: url(../img/barmenu.png) !important;
+         border-radius: 0 !important;
+        transition: box-shadow .15s ease-in-out;
+        border: 0px !important;
+    }
+    div#navbarSupportedContent {
+        background: #ffff;
+        color: #000;
+        padding-left: 10px;
+    }
+    
+    div#navbarSupportedContent ul li a {
+        color: #000;
+        line-height: 30px;
+    }
+
+
+    span.imgcer {
+        float: unset; 
+    }
+    
+    span.imgde {
+        width: 100%;
+        top: 0;
+    }
+    .timeline ul li div {
+        width: 260px;
+        padding-bottom: 30px;
+    }
+    .box_details {
+        padding: 20px;
+    }
+    
+    .box_img img {
+        height: 400px;
+        width: auto;
+    }
+    .box_details {
+        padding: 20px;
+    }
+    
+    .box_img img {
+        height: 400px;
+        width: auto;
+    }
+    
+    .winter_price {
+        margin-bottom: 30px;
+    }
+
+    body.modal-open {
+        padding: 0 !important; 
+    }
+    nav.navbar.navbar-expand-lg.mainmenu {
+        height: 70px;
+        line-height: 70px;
+    }
+    div#navbarSupportedContent {
+        z-index: 9999;
+    }
+    li.first.in-view div {
+        background: url(../img/bggb.png);
+        min-width: 100%;
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+    }
+    .input_increment_decrement.centerdiv:after{
+        display: none;
+    }
+    .row.boxrowdetials {
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        padding-bottom: 100px;
+        padding-top: 40%;
+    }
+    
+}
+
+ 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .row.boxrowdetials {
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        padding-bottom: 100px;
+        padding-top: 40%;
+    }
+
+    .mobilehide {
+        display: none;
+    }
+    
+    
+    .banner_details h2 {
+        font-size: 41px;
+        line-height: 50px;
+        padding: 20px 0;
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    .banner_details {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+        line-height: 1;
+        background: url(../img/barmenu.png) !important;
+         border-radius: 0 !important;
+        transition: box-shadow .15s ease-in-out;
+     }
+    div#navbarSupportedContent {
+        background: #ffff;
+        color: #000;
+        padding-left: 10px;
+    }
+    
+    div#navbarSupportedContent ul li a {
+        color: #000;
+        line-height: 30px;
+    }
+    .box_details {
+        padding: 20px;
+    }
+    
+    .box_img img {
+        height: 400px;
+        width: auto;
+    }
+    .box_details {
+        padding: 20px;
+    }
+    
+    .box_img img {
+        height: 400px;
+        width: auto;
+    }
+    
+    .winter_price {
+        margin-bottom: 30px;
+    }
+    .timeline ul li {
+        margin-left: 30px;
+    }
+
+    li.first.in-view:before {
+        content: "Step 01"; 
+        left: -66px; 
+        font-size: 12px;
+    }
+    li.third .in-view:before {
+        content: "Step 03"; 
+        left: -66px; 
+        font-size: 12px;
+    }
+    li.sec.in-view:before {
+        content: "Step 02"; 
+        right: 67px; 
+        font-size: 12px;
+    }
+    li.fours.in-view:before {
+        content: "Step 04"; 
+        right: 67px; 
+        font-size: 12px;
+    }
+    .timeline ul li:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #1D0043 transparent transparent;
+    }
+    .winer_img img {
+        width: 100%; 
+    }
+    body.modal-open {
+        padding: 0 !important; 
+    }
+    nav.navbar.navbar-expand-lg.mainmenu {
+        height: 70px;
+        line-height: 70px;
+    }
+    div#navbarSupportedContent {
+        z-index: 9999;
+    }
+    .howwork {
+        padding: 30px 0 !important;
+    }
+
+    li.first.in-view div {
+        background: url(../img/bggb.png);
+        min-width: 100%;
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+    }
+    .box_details {
+        width: 100%;
+    }
+    .input_increment_decrement {
+        width: 16.6% !important;
+        float: left;
+    }
+    .input_increment_decrement.centerdiv:after{
+        display: none;
+    }
+    .row.boxrowdetials {
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        padding-bottom: 100px;
+        padding-top: 66%;
+    }
+}
+
+ 
+
+/*  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .row.boxrowdetials {
+        overflow: hidden;
+        position: relative;
+        top: 0;
+        padding-bottom: 100px;
+        padding-top: 76%;
+    }
+    .input_increment_decrement.centerdiv:after{
+        display: none;
+    }
+    .input_increment_decrement {
+        width: 16.6% !important;
+        float: left;
+    }
+    .box_details {
+        width: 100%;
+    }
+    .howwork {
+        padding: 30px 0 !important;
+    }
+    .timeline ul li:first-child div {
+        left: 45px;
+        padding-left: 10;
+    }
+    li.first.in-view div {
+        background: url(../img/bggb.png);
+        min-width: 100%;
+        background-size: cover;
+        height: 100%;
+        background-position: center;
+    }
+      .mobilehide {
+        display: none;
+    }
+    
+    .banner_details h2 {
+        font-size: 41px;
+        line-height: 50px;
+        padding: 20px 0;
+        width: 340px;
+        margin: 0 auto;
+    }
+    
+    .banner_details {
+        padding: 0;
+    }
+    .navbar-toggler {
+        padding: 0 !important;
+        line-height: 1;
+        background: url(../img/barmenu.png) !important;
+         border-radius: 0 !important;
+        transition: box-shadow .15s ease-in-out;
+    }
+
+    div#navbarSupportedContent {
+        background: #ffff;
+        color: #000;
+        padding-left: 10px;
+    }
+    
+    div#navbarSupportedContent ul li a {
+        color: #000;
+        line-height: 30px;
+    }
+    .box_details {
+        padding: 20px;
+    }
+    
+    .box_img img {
+        height: 400px;
+        width: auto;
+    }
+    .box_details {
+        padding: 20px;
+    }
+    
+    .box_img img {
+        height: auto;
+        width: 100%;
+    }
+    
+    .winter_price {
+        margin-bottom: 30px;
+    }
+
+    .how_it_details h2 {
+        font-size: 34px; 
+    }
+    .timeline ul li div {
+        width: calc(90vw - 90px);
+    }
+    span.imgde {
+        width: 100%;
+        padding-left: 10px;
+        position: relative;
+        top: 8px;
+        padding-bottom: 20px;
+    }
+    
+    .timeline ul li {
+        margin-left: 30px;
+    }
+
+    li.first.in-view:before {
+        content: "Step 01"; 
+        left: -66px; 
+        font-size: 12px;
+    }
+    li.third .in-view:before {
+        content: "Step 03"; 
+        left: -66px; 
+        font-size: 12px;
+    }
+    li.sec.in-view:before {
+        content: "Step 02"; 
+        right: 67px; 
+        font-size: 12px;
+    }
+    li.fours.in-view:before {
+        content: "Step 04"; 
+        right: 67px; 
+        font-size: 12px;
+    }
+    .timeline ul li:nth-child(even) div::before {
+        left: -15px;
+        border-width: 8px 16px 8px 0;
+        border-color: transparent #1D0043 transparent transparent;
+    }
+    .winer_img img {
+        width: 100%; 
+    }
+
+    body.modal-open {
+        padding: 0 !important; 
+    }
+
+    nav.navbar.navbar-expand-lg.mainmenu {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    .number-box input {
+        width: 82% !important;
+    }
+    .number-box .icon {
+        width: 35px !important;
+        min-width: 35px !important;
+        padding: 0 !important;
+        margin: 0;
+    }
+    div#navbarSupportedContent {
+        z-index: 9999;
+    }
+}
+
+ 
