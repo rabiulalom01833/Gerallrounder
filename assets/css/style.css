@@ -1,4 +1,35 @@
- body , h1 , h2 , h3 , h4 , h5 , p{
+  @font-face {
+     font-family: "Circular Std Book";
+     src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot");
+     src: url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.woff") format("woff"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/860c3ec7bbc5da3e97233ccecafe512e.svg#Circular Std Book") format("svg");
+ }
+
+ @font-face {
+     font-family: "Circular Std Bold";
+     src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
+     src: url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff") format("woff"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold") format("svg");
+ }
+
+ @font-face {
+     font-family: "Circular Std Black";
+     src: url("//db.onlinewebfonts.com/t/f1a22f6f15d272c7aa56da8b2c91f5e5.eot");
+     src: url("//db.onlinewebfonts.com/t/f1a22f6f15d272c7aa56da8b2c91f5e5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f1a22f6f15d272c7aa56da8b2c91f5e5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f1a22f6f15d272c7aa56da8b2c91f5e5.woff") format("woff"), url("//db.onlinewebfonts.com/t/f1a22f6f15d272c7aa56da8b2c91f5e5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f1a22f6f15d272c7aa56da8b2c91f5e5.svg#Circular Std Black") format("svg");
+ }
+
+ @font-face {
+     font-family: "Circular Std Medium";
+     src: url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.eot");
+     src: url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.woff") format("woff"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.svg#Circular Std Medium") format("svg");
+ }
+
+ @font-face {
+     font-family: "Circular Std Bold Italic";
+     src: url("//db.onlinewebfonts.com/t/82e5b6ce5cb6f9942bdd08543ef2c864.eot");
+     src: url("//db.onlinewebfonts.com/t/82e5b6ce5cb6f9942bdd08543ef2c864.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/82e5b6ce5cb6f9942bdd08543ef2c864.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/82e5b6ce5cb6f9942bdd08543ef2c864.woff") format("woff"), url("//db.onlinewebfonts.com/t/82e5b6ce5cb6f9942bdd08543ef2c864.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/82e5b6ce5cb6f9942bdd08543ef2c864.svg#Circular Std Bold Italic") format("svg");
+ }
+
+
+body , h1 , h2 , h3 , h4 , h5 , p{
      font-family: Circular Std Book;
  }
 
